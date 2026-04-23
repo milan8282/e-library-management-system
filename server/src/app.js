@@ -12,7 +12,7 @@ dotenv.config()
 const app = express()
 
 const allowedOrigins = [
-    "https://mr-dhamelia-e-lib.vercel.app",
+    "https://e-library-management-system-olive.vercel.app/",
     process.env.CLIENT_URL,
 ].filter(Boolean)
 
